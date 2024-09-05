@@ -1,0 +1,43 @@
+.sidebar{
+   height: 100vh;
+   width: 5%;
+   overflow: hidden; 
+   background-color: rgb(62, 126, 128);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo{
+    color: rgb(40, 200, 40);
+}
+.boxcenter , .boxheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.boxicon , .boxendicon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.boxicon:active , .boxicon:enabled{
+    color: rgb(40, 200, 40);
+}
+.boxend{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxendframe{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}

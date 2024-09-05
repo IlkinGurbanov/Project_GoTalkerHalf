@@ -1,0 +1,32 @@
+.Verify{
+    padding-top: 40px;
+}
+.Verifytext{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputsize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Verifybtn{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(46, 166, 46);
+    color: white;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.resend{
+    margin: 0;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

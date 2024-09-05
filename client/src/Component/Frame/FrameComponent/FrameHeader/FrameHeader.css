@@ -1,0 +1,60 @@
+.FrameHeader{
+    width: 70vw;
+    height: 70px;
+    background-color: rgb(53, 131, 134);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerstart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+}
+.username {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+.usernumber{
+    margin: 0;
+    font-size: 17px;
+    color: white;
+}
+.userframe{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+.usericon{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.headerend{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+.video{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.sound{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
